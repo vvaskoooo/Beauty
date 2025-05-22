@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: pink;
-    color: white;
+    background-color: #f5f5f5;
+    color: pink;
     line-height: 1.6;
 }
 
@@ -17,7 +17,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #b54200;
+    background-color:rgb(138, 8, 110);
     color: white;
     padding: 15px 0;
     z-index: 1000;
