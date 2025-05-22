@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FoodBurger - Стоматологическая клиника</title>
+    
+</head>
+<body>
+    <!-- Фиксированное меню -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">FoodBurger</div>
+            <ul class="nav-links">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#services">Меню</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Липкий заголовок -->
+    <header class="page-header" id="home">
+        <h1>Сеть быстрого питания </h1>
+    </header>
+    
+    <div class="main-content">
+        <!-- Блок с относительным и абсолютным позиционированием -->
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Вкус, который объединяет!</h1>
+                <p>Сочные бургеры - ваше счастье в каждом укусе!</p>
+            </div>
+        </section>
+        
+        <!-- Карточки услуг -->
+        <section id="services">
+            <h2 style="text-align: center; margin-bottom: 30px;">Наши услуги</h2>
+            <div class="services">
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('https://via.placeholder.com/300x200?text=Терапия');"></div>
+                    <div class="service-content">
+                        <h3>Основное меню</h3>
+                        <p>Сочные бургеры, приготовленные из свежих ингредиентов. Качественные ингредиенты и вкусные соусы.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('https://via.placeholder.com/300x200?text=Ортодонтия');"></div>
+                    <div class="service-content">
+                        <h3>Фирменные бургеры</h3>
+                        <p>Уникальные рецепты с добавлением специальных ингредиентов. Профессиональное приготовление и подача.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('https://via.placeholder.com/300x200?text=Имплантация');"></div>
+                    <div class="service-content">
+                        <h3>Дополнения к бургеру</h3>
+                        <p>Картофель фри, наггетсы, кольца лука и другие вкусные дополнения, приготовленные по современным рецептам.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Центрирование с Flexbox -->
+        <section class="cta-section">
+            <h2>Закажите бесплатную дегустацию!</h2>
+            <p>Наши специалисты ответят на все ваши вопросы и составят индивидуальный заказ</p>
+            <a href="#contact" class="btn">Записаться онлайн</a>
+        </section>
+        
+        <!-- Дополнительные блоки -->
+        <section id="about" style="margin: 60px 0;">
+            <h2 style="text-align: center; margin-bottom: 30px;">О нашей бургерной</h2>
+            <div style="background-color: white; padding: 30px; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                <p>Наша бургерная BurgerCare радует гостей с 2010 года и за это время заслужила доверие тысяч клиентов. Мы используем только свежие ингредиенты и современное оборудование от ведущих мировых производителей.</p>
+                <p style="margin-top: 15px;">Наша команда состоит из высококвалифицированных специалистов с многолетним опытом работы, регулярно повышающих свою квалификацию на международных конференциях и семинарах.</p>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Подвал -->
+    <footer id="contact">
+        <div class="footer-content">
+            <h3>Контакты</h3>
+            <p style="margin: 20px 0;">г. Москва, ул. Пушкинская, 15</p>
+            <p>Телефон: +7 (495) 123-45-67</p>
+            <p style="margin: 20px 0;">Email: info@dentalcare.ru</p>
+            <p>© 2023 FoodBurger Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
